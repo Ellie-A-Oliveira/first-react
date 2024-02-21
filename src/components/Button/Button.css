@@ -1,8 +1,13 @@
 .button {
-  padding: 12px 16px;
+  padding: 0.75rem 1rem;
   font-size: 16px;
+
   border: 1px solid darkgray;
   border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: background-color .2s ease-in-out;
 }
 
 .success {
@@ -17,4 +22,8 @@
 .danger {
   border-color: darkred;
   background-color: firebrick;
+}
+
+.danger:hover {
+  background-color: rgb(129, 13, 13);
 }
